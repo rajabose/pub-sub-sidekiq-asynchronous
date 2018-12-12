@@ -40,3 +40,4 @@ $ rails generate model ad \
 ```
 rails g migration AddModelName1ToModelName2 ModelName1:references
 ```
+https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/

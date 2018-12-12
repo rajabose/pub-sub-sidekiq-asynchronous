@@ -23,3 +23,20 @@ Things you may want to cover:
 
 * ...
 # pub-sub-sidekiq-asynchronous
+
+### rails model generation 
+```
+rails new PROJECT_NAME
+$ cd PROJECT_NAME
+$ rails generate model ad \
+    name:string \ 
+    description:text \
+    price:decimal \
+    seller_id:integer \
+    email:string img_url:string
+```
+
+### model association command
+```
+rails g migration AddModelName1ToModelName2 ModelName1:references
+```
